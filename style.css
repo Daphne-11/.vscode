@@ -1,0 +1,14 @@
+body{
+    background-color: #f0bec1
+}
+
+
+
+h1{
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: #e94170ee;
+} 
