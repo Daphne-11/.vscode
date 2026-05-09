@@ -10,5 +10,41 @@ h1{
     text-align: center;
     font-size: 50px;
     font-weight: 600;
-    color: #e94170ee;
+    color: #4e1f2dee;
 } 
+
+.box{
+    padding: 20px;
+    margin: 20px auto;
+    border: 5px solid #dd969b;
+    width: 30%;
+    border-radius: 15px;
+    background-color: #f7d1d5;
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    width: 70%;
+    margin: 20px auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.banner {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    width: 100%;
+    max-width: 100%;
+    opacity: 0.7;
+    display: block; 
+}
+
+h1 {
+    position: relative;
+    z-index: 1;
+}
+
